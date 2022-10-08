@@ -1,0 +1,351 @@
+.icon-nav {
+  display: block;
+  font-size: 2rem;
+  color: #efb810;
+  text-align: center;
+  -webkit-animation: icon-nav 1s ease infinite forwards alternate;
+          animation: icon-nav 1s ease infinite forwards alternate;
+}
+@-webkit-keyframes icon-nav {
+  0% {
+    color: rgba(255, 255, 255, 0.856);
+  }
+  25% {
+    color: rgb(247, 225, 171);
+  }
+  50% {
+    color: rgb(243, 200, 93);
+  }
+  100% {
+    color: rgb(255, 183, 0);
+  }
+}
+@keyframes icon-nav {
+  0% {
+    color: rgba(255, 255, 255, 0.856);
+  }
+  25% {
+    color: rgb(247, 225, 171);
+  }
+  50% {
+    color: rgb(243, 200, 93);
+  }
+  100% {
+    color: rgb(255, 183, 0);
+  }
+}
+
+.div-icon-money {
+  width: 100%;
+  height: 100vh;
+}
+.div-icon-money .icon-princ-money {
+  font-size: 14rem;
+  color: #efb810;
+  -webkit-animation: money 1s ease infinite forwards alternate;
+          animation: money 1s ease infinite forwards alternate;
+}
+@-webkit-keyframes money {
+  0% {
+    color: rgba(255, 255, 255, 0.856);
+  }
+  25% {
+    color: rgb(247, 225, 171);
+  }
+  50% {
+    color: rgb(243, 200, 93);
+  }
+  100% {
+    color: rgb(255, 183, 0);
+  }
+}
+@keyframes money {
+  0% {
+    color: rgba(255, 255, 255, 0.856);
+  }
+  25% {
+    color: rgb(247, 225, 171);
+  }
+  50% {
+    color: rgb(243, 200, 93);
+  }
+  100% {
+    color: rgb(255, 183, 0);
+  }
+}
+
+.card-sec-presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  min-height: 30rem;
+  padding: 1.2rem;
+  border: 1px solid white;
+  border-radius: 3rem;
+}
+.card-sec-presentation .div-img-card {
+  display: flex;
+  text-align: center;
+  min-height: 40%;
+  min-width: 90%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-radius: 3rem 3rem 0rem 0rem;
+}
+@media (min-width: 701px) and (max-width: 991px) {
+  .card-sec-presentation .div-img-card {
+    min-height: 60%;
+    min-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 3rem 3rem 0rem 0rem;
+  }
+}
+.card-sec-presentation .trump {
+  background-image: url(../img/trump.png);
+}
+.card-sec-presentation .warren {
+  background-image: url(../img/warren.png);
+}
+.card-sec-presentation .robert {
+  background-image: url(../img/robert.png);
+}
+.card-sec-presentation .card-body {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  border-top: 0.1px solid white;
+}
+@media (max-width: 575px) {
+  .card-sec-presentation .card-body {
+    border-top: none;
+  }
+}
+.card-sec-presentation .card-body .card-text {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.card-sec-presentation:hover {
+  transition: 0.5s;
+  border: 2px solid #efb810;
+  padding: 1rem;
+}
+.card-sec-presentation:hover .div-img-card {
+  transition: 2s;
+}
+
+.btn-divition {
+  padding: 1rem;
+  border-radius: 1.5rem;
+  background-color: transparent;
+  color: white;
+  font-weight: 600;
+  border: 1px solid rgb(245, 27, 234);
+}
+.btn-divition:hover {
+  transition: 1s;
+  border-radius: 2rem;
+  background-color: rgb(245, 27, 234);
+  border: 1px solid rgb(245, 27, 234);
+}
+
+* {
+  width: 100%;
+}
+
+.sec-nav {
+  padding: 1rem 2rem 4rem 2rem;
+  margin: 0;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: stretch;
+  background-image: url(../img/fondo-menu.png);
+  background-attachment: fixed;
+}
+.sec-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sec-nav ul li {
+  text-align: center;
+  align-items: stretch;
+  padding: 0.5rem;
+  width: 33.3%;
+}
+.sec-nav ul li a {
+  text-decoration: none;
+  align-items: stretch;
+  color: white;
+  font-weight: 600;
+}
+.sec-nav ul li a:hover {
+  transition: 0.5s;
+  box-shadow: 0 2px #efb810;
+  color: #efb810;
+}
+
+.sec-main {
+  padding: 1rem 2rem 4rem 2rem;
+  margin: 0;
+  height: 35rem;
+  background-color: black;
+  padding-bottom: 2rem;
+  background-image: url(../img/fondo-menu.png);
+  background-attachment: fixed;
+}
+.sec-main .main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.sec-main .main .title-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  row-gap: 2rem;
+}
+.sec-main .main .title-text h1 {
+  font-size: 4rem;
+}
+.sec-main .main .div-icon-money {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  .sec-main .main .div-icon-money {
+    display: none;
+  }
+}
+.sec-main .main .div-icon-money i {
+  width: 50%;
+  text-align: center;
+  position: relative;
+  top: -3rem;
+}
+
+.sec-presentation {
+  display: grid;
+  padding: 1rem 2rem 4rem 2rem;
+  margin: 0;
+  min-height: 45rem;
+  width: 100%;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+.sec-presentation h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+.sec-presentation .div-cards-presentation {
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  gap: 2rem;
+  justify-content: center;
+  align-items: stretch;
+  margin: 0;
+  padding: 0 3rem;
+}
+
+.sec-divition {
+  padding: 1rem 2rem 4rem 2rem;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/fondo-blanco.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.sec-divition .row .div-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+  padding: 2rem;
+  margin: 0;
+}
+@media (max-width: 679px) {
+  .sec-divition .row .div-text {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+.sec-divition .row .div-text h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.sec-divition .row .div-text p {
+  font-weight: 600;
+  width: 90%;
+}
+.sec-divition .row .div-img-divition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 40%;
+  margin: 0;
+}
+@media (max-width: 679px) {
+  .sec-divition .row .div-img-divition {
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.sec-divition .row .div-img-divition img {
+  margin: 0;
+  border-radius: 5rem;
+  width: 60%;
+}
+.sec-divition .row .div-img-divition img:hover {
+  transition: 0.5s;
+  width: 65%;
+}
+@media (min-width: 680px) and (max-width: 890px) {
+  .sec-divition .row .div-img-divition img {
+    justify-content: center;
+    align-items: flex-end;
+    min-width: 85%;
+  }
+  .sec-divition .row .div-img-divition img:hover {
+    transition: 0.5s;
+    width: 105%;
+  }
+}/*# sourceMappingURL=index.css.map */
